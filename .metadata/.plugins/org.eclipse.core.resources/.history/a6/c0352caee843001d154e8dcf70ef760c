@@ -1,0 +1,40 @@
+import java.util.Arrays;
+
+public class Cardapio {
+	public static final int CACHORRO_QUENTE_ID = 100;
+	public static final float CACHORRO_QUENTE_PRICE = 1.2f;
+	
+	public static final int BAURU_SIMPLES_ID = 101;
+	public static final float BAURU_SIMPLES_PRICE = 1.3f;
+	
+	public static final int BAURU_OVO_ID = 102;
+	public static final float BAURU_OVO_PRICE = 1.5f;
+	
+	public static final int HAMBURGUER_ID = 103;
+	public static final float HAMBURGUER_PRICE = 1.2f;
+	
+	public static final int CHEESEBURGUER_ID = 104;
+	public static final float CHEESEBURGUER_PRICE = 1.3F;
+	
+	public static final int REFRIGERANTE_ID = 105;
+	public static final float REFRIGERANTE_PRICE = 1f;
+	
+	private int[] itens = new int[6];
+
+	public int[] getItens() {
+		return itens;
+	}
+
+	public void setItens(int id, int qtd) {
+		this.itens[id % 100 - 1] += qtd;
+	}
+
+	@Override
+	public String toString() {
+		StringBuilder builder = new StringBuilder();
+		builder.append("Cardapio [itens=");
+		builder.append(Arrays.toString(itens));
+		builder.append("]");
+		return builder.toString();
+	}
+}

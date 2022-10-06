@@ -1,0 +1,37 @@
+
+public class BombaCombustivel {
+	public final int TIPO_DISEL = 0;
+	public final int TIPO_GASOLINA = 1;
+	public final int TIPO_ALCOOL = 2;
+	
+	private int tipoCombustivel;
+	private float valorLitro;
+	private float qtdCombustivel;
+	
+	public float abastercerPorValor(float dinheiro) {
+		float litros = valorLitro/dinheiro;
+		setQtdCombustivel(qtdCombustivel - litros);
+		return litros;
+	}
+	
+	public int getTipoCombustivel() {
+		return tipoCombustivel;
+	}
+	public void setTipoCombustivel(int tipoCombustivel) {
+		this.tipoCombustivel = tipoCombustivel;
+	}
+	public float getValorLitro() {
+		return valorLitro;
+	}
+	public void setValorLitro(float valorLitro) {
+		this.valorLitro = valorLitro;
+	}
+	public float getQtdCombustivel() {
+		return qtdCombustivel;
+	}
+	public void setQtdCombustivel(float qtdCombustivel) {
+		this.qtdCombustivel = qtdCombustivel;
+	}
+	
+	
+}

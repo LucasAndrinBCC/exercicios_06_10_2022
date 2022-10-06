@@ -1,0 +1,28 @@
+import java.util.Scanner;
+public class SalarioMain {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Entre com o salário por hora: ");
+		float salarioHora = input.nextFloat();
+		System.out.print("Entre com as horas trabalhadas no mês: ");
+		float horasTrabalhadasMes = input.nextFloat();
+		
+		Salario salario = new Salario(salarioHora, horasTrabalhadasMes);
+		
+		System.out.print("+ Salario Bruto: ");
+		System.out.println(salario.getSalarioBruto());
+		System.out.print("- IR: ");
+		System.out.println(salario.getIr());
+		System.out.print("- INSS: ");
+		System.out.println(salario.getInss());
+		System.out.print("- Sindicato: ");
+		System.out.println(salario.getSindicato());
+		System.out.print("= Salário Liquido: ");
+		System.out.println(salario.getSalarioLiquido());
+		
+		input.close();
+	}
+
+}

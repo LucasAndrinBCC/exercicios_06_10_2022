@@ -1,0 +1,32 @@
+
+public class Salario {
+	protected final int IR = 11;
+	protected final int INSS = 8;
+	protected final int SINDICATO = 5;
+	
+	private float salarioHora;
+	private float horasTrabalhadasMes;
+	
+	public Salario(float salarioHora, float horasTrabalhadasMes) {
+		setSalarioHora(salarioHora);
+		setHorasTrabalhadasMes(horasTrabalhadasMes);
+	}
+
+	public float getSalarioHora() {
+		return salarioHora;
+	}
+
+	public void setSalarioHora(float salarioHora) {
+		if (salarioHora > 0) {
+			this.salarioHora = salarioHora;
+		}
+	}
+
+	public float getHorasTrabalhadasMes() {
+		return horasTrabalhadasMes;
+	}
+
+	public void setHorasTrabalhadasMes(float horasTrabalhadasMes) {
+		this.horasTrabalhadasMes = horasTrabalhadasMes;
+	}
+}

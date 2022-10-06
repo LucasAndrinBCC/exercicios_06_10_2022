@@ -1,0 +1,30 @@
+
+public class ContaBancaria {
+	private int numeroConta;
+	private String nome;
+	private float saldo;
+	
+	ContaBancaria(int numeroConta, String nome) {
+		setNumeroConta(numeroConta);
+		setNome(nome);
+	}
+	
+	public int getNumeroConta() {
+		return numeroConta;
+	}
+	public void setNumeroConta(int numeroConta) {
+		this.numeroConta = numeroConta;
+	}
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public float sacar(float saldo) {
+		return saldo;
+	}
+	public void depositar(float saldo) {
+		this.saldo += saldo;
+	}
+}

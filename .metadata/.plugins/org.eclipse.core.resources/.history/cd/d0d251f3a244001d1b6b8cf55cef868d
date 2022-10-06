@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class SquareMain {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Informe o lado do quadrado: ");
+		float size = input.nextFloat();
+		
+		Square square = new Square(size);
+		
+		input.close();
+	}
+
+}

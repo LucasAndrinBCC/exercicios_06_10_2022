@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Informe o primeiro número: ");
+		int first = input.nextInt();
+		System.out.print("Informe o segundo número: ");
+		int second = input.nextInt();
+		
+		Interval interval = new Interval(first, second);
+		
+		if (interval.isInversed()) {
+			System.out.println("Valores foram invertidos!");
+		}
+		
+		input.close();
+	}
+
+}

@@ -1,0 +1,12 @@
+INDEX VERSION 1.131+D:\Lucas Andrin\Lucas Andrin\IFC\BCC\POO1\JavaPooIntroducao\exercicios_06_10_2022\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+2227035112.index
+763967526.index
+4107743079.index
+2211454961.index
+1790163652.index
+1519257776.index
+1843298013.index
+498371154.index
+450448971.index
+4251018060.index

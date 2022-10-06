@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class BombaCombustivelMain {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		BombaCombustivel bomba = new BombaCombustivel();
+		
+		float litros, dinheiro;
+		do {
+			
+		} while ();
+		
+		input.close();
+	}
+
+}

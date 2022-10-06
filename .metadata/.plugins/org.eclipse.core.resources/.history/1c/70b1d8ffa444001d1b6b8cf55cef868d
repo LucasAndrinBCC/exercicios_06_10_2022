@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class PessoaMain {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Entre com o nome: ");
+		String nome = input.next();
+		System.out.print("Entre com a idade: ");
+		int idade = input.nextInt();
+		System.out.print("Entre com o peso: ");
+		float peso = input.nextFloat();
+		System.out.print("Entre com a altura: ");
+		float altura = input.nextFloat();
+		
+		Pessoa pessoa = new Pessoa();
+		
+		input.close();
+	}
+
+}

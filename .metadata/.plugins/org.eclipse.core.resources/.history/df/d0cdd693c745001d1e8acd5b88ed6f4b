@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class TelevisorMain {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		Televisor tv = new Televisor();
+		
+		
+		
+		input.close();
+	}
+
+}

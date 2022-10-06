@@ -1,0 +1,13 @@
+
+public class Banco {
+	private Conta conta;
+
+	public Conta getConta() {
+		return conta;
+	}
+
+	public void setConta(int numeroConta, String nome) {
+		
+		this.conta = conta;
+	}
+}

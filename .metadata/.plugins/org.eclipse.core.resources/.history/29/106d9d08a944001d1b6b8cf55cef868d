@@ -1,0 +1,8 @@
+
+public class ContaBancaria {
+	private int numeroConta;
+	private String nome;
+	private float saldo;
+	
+	
+}

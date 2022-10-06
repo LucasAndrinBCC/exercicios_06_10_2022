@@ -1,0 +1,12 @@
+
+public class Cardapio {
+	public static final int CACHORRO_QUENTE_ID = 100;
+	public static final float CACHORRO_QUENTE_PRICE = 1.2f;
+	
+	public static final int BAURU_SIMPLES_ID = 101;
+	public static final float BAURU_SIMPLES_PRICE = 1.3f;
+	
+	public static final int BAURU_OVO_ID = 101;
+	public static final float BAURU_OVO_PRICE = 1.3f;
+	
+}

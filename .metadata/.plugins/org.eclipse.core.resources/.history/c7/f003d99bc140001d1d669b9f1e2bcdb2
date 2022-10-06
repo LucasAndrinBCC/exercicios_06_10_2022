@@ -1,0 +1,44 @@
+import java.util.Scanner;
+
+/**
+ * 
+ * @author Lucas Andrin
+ * Faça um programa que peça ao usuário nome e sobrenome separadamente
+ * e após junte-os com a mensagem “Seu nome completo é: Nome SobreNome”
+ */
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		User user = new User();
+		String nome, sobrenome;
+		StringBuilder saida = new StringBuilder();
+		
+		do {
+			System.out.print("Entre com o seu nome: ");
+			nome = entrada.nextLine();
+			if (nome.length() == 0) {
+				System.out.println("Nome inválido!");
+			}
+		} while (nome.length() == 0);
+		
+		do {
+			System.out.print("Entre com o seu sobrenome: ");
+			sobrenome = entrada.nextLine();
+			if (sobrenome.length() == 0) {
+				System.out.println("Sobrenome inválido!");
+			}
+		} while (sobrenome.length() == 0);
+		
+		user.setNome(nome);
+		user.setSobrenome(sobrenome);
+		
+		saida.append("Seu nome completo é: ");
+		saida.append(user.nomeCompleto());
+		
+		System.out.println(saida.toString());
+		
+		entrada.close();
+	}
+
+}

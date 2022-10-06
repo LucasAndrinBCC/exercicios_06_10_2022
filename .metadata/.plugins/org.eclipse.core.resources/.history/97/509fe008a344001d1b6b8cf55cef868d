@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class SquareMain {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		StringBuilder builder = new StringBuilder();
+		
+		System.out.print("Informe o lado do quadrado: ");
+		float size = input.nextFloat();
+		
+		Square square = new Square(size);
+		builder.append("Size: ");
+		buider.append(square.getSize());
+		builder.append("Area: ");
+		builder.append(square.getArea());
+		
+		input.close();
+	}
+
+}

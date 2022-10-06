@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class BombaCombustivelMain {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		BombaCombustivel bomba = new BombaCombustivel(0, 7);
+		
+		float litros, dinheiro;
+		
+		System.out.print("Entre com a quantidade de litros que quer abastecer: ");
+		litros = input.nextFloat();
+		System.out.println(bomba.abastercerPorLitro(litros));
+		
+		System.out.print("Entre com o valor em dinheiro: ");
+		dinheiro = input.nextFloat();
+		System.out.println(bomba.abastercerPorValor(dinheiro));		
+		
+		input.close();
+	}
+
+}

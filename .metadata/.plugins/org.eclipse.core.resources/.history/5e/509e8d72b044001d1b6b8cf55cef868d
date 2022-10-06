@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class ContaBancariaMain {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Nome: ");
+		String nome = input.nextLine();
+		
+		ContaBancaria conta = new ContaBancaria(nome);
+		
+		System.out.print("Informe seu deposito inicial: ");
+		System.out.println(conta.depositar(input.nextFloat()));
+		
+		System.out.print("Informe seu saque: ");
+		System.out.println(conta.sacar(input.nextFloat()));
+		
+		System.out.print("Deseja alterar nome? ");
+		boolean alterarNome = input.nextBoolean();
+		if (alterarNome) {
+			System.out.print("Informe seu novo nome: ");
+			System.out.println(conta.alterarNome(nome));
+		}
+		
+		System.out.println(conta.toString());
+		
+		input.close();
+	}
+
+}

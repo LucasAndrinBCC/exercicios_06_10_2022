@@ -1,0 +1,12 @@
+
+public class Banco {
+	private Conta[] conta;
+
+	public Conta getConta(int index) {
+		return conta[index];
+	}
+
+	public void setConta(int numeroConta, String nome) {
+		this.conta = conta;
+	}
+}

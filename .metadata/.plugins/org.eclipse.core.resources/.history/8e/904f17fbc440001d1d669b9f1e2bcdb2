@@ -1,0 +1,9 @@
+
+public class Salario {
+	private float salarioHora;
+	private float horasTrabalhadasMes;
+	
+	public Salario(float salarioHora, float horasTrabalhadasMes) {
+		
+	}
+}

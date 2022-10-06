@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;bombaCombustivel&apos; to &apos;BombaCombustivel&apos;&#x0D;&#x0A;- Original project: &apos;Exe11&apos;&#x0D;&#x0A;- Original element: &apos;bombaCombustivel&apos;&#x0D;&#x0A;- Renamed element: &apos;BombaCombustivel&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;bombaCombustivel&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{bombaCombustivel.java[bombaCombustivel" matchStrategy="1" name="BombaCombustivel" qualified="false" references="true" similarDeclarations="false" stamp="1665096214226" textual="false" version="1.0"/>
+</session>

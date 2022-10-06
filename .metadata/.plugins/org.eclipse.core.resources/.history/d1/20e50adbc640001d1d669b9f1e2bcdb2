@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class SalarioMain {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+
+		float salarioHora = input.nextFloat();
+		float horasTrabalhadasMes = input.nextFloat();
+		
+		Salario salario = new Salario();
+		
+		input.close();
+	}
+
+}

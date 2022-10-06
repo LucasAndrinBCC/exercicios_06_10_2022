@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		User user = new User();
+		String nome, sobrenome;
+		
+		do {
+			System.out.print("Entre com o seu nome: ");
+			nome = entrada.nextLine();
+			if (nome.length() == 0) {
+				System.out.println("Nome inválido!");
+			}
+		} while (nome.length() == 0);
+		
+		do {
+			System.out.println("Entre com o seu sobrenome: ");
+			sobrenome = entrada.nextLine();
+			if (sobrenome.length() == 0) {
+				System.out.println("Sobrenome inválido!");
+			}
+		} while (sobrenome.length() == 0);
+		
+		entrada.close();
+	}
+
+}

@@ -1,0 +1,5 @@
+
+public class Televisor {
+	private int canal;
+	private int volume;
+}

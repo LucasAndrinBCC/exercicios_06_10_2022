@@ -1,0 +1,15 @@
+
+/**
+ * 
+ * @author Lucas Andrin
+ * Faça um programa que tenha uma função para calcular as quatro operações
+ * básicas de 2 números;
+ */
+public class CalcMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

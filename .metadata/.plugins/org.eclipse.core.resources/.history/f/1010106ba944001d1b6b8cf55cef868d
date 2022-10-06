@@ -1,0 +1,6 @@
+
+public class Banco {
+	private int[] numeroConta;
+	private String[] nome;
+	private float[] saldo;
+}

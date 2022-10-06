@@ -1,0 +1,4 @@
+
+public class Cardapio {
+	public static final int CACHORRO_QUENTE_ID = 100;
+}

@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class ContaBancariaMain {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Numero da conta: ");
+		int numeroConta = input.nextInt();
+		
+		System.out.print("Nome: ");
+		String nome = input.nextLine();
+		
+		ContaBancaria conta = new ContaBancaria(numeroConta, nome);
+		
+		System.out.println("Informe seu deposito inicial: ");
+		conta.depositar(input.nextFloat());
+		
+		input.close();
+	}
+
+}
